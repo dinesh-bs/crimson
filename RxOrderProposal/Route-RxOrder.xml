@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="627618f4-aeb7-465f-b382-57e19bb49344" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Route RxOrder" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="627618f4-aeb7-465f-b382-57e19bb49344fileName">Route-RxOrder</con:setting></con:settings><con:testStep type="groovy" name="ExtractRouteHeader" id="157e0850-0912-4be5-b50d-0cc9280844e5"><con:settings/><con:config><script>//Extracting Location Header
+def headerValue = testRunner.testCase.getTestStepByName("POST routeRxOrder").httpRequest.response.responseHeaders["Location"]
+locationHeader=headerValue[0].toString()
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

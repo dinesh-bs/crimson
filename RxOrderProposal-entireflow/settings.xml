@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="0ef7666c-5a99-4ff8-9269-b53f525e5b7e" name="RxOrderProposal-entireflow" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0ef7666c-5a99-4ff8-9269-b53f525e5b7efileName">RxOrderProposal-entireflow</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
